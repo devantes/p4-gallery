@@ -22,6 +22,11 @@ nav {
 	height: 130px;
 
 }
+.footer {
+	background: rgba(26, 26, 26, 0.9);
+	height: 60px;
+
+}
 
 
 
@@ -48,6 +53,19 @@ nav a {
   text-transform: uppercase;
 }
 
+ a {
+  text-decoration: none;
+  
+  float: left;
+  right: 500px;
+  color: white;
+  list-style: none ;
+  
+  padding:10px;
+  vertical-align: center;
+  text-transform: uppercase;
+
+}
 .span_12 ul li {
 
 	display: inline-block;
