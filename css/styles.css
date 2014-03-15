@@ -47,7 +47,8 @@ nav a {
 	display: inline-block;
 }
 .header {
-	background: black;
+	background: rgba(26, 26, 26, 0.9);
+
 }
 /* Show Grid */
 .showgrid {
