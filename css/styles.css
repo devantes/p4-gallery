@@ -4,8 +4,9 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic);
 * { margin:0; }
 body { 
-  margin:0;
+  margin:;
   font-family: Source Sans Pro, sans-serif; 
+  background-color: rgba(3, 58, 93, 0.9);
 } 
 dl#simple-gallery { 
   position: relative;
@@ -18,7 +19,6 @@ dl#simple-gallery {
   min-height: ;
   top: 130px;
 
-  margin: 5px;
 }
 dl#simple-gallery dt{
   width: 12.5%;
@@ -52,12 +52,19 @@ dl#simple-gallery dd img{
   display:block;
   margin-bottom: 1rem;
   position: fixed;
-  top: 150px;
+  top: 130px;
 }
 
 
 /* header */
 
+.logo {
+  height: 120px;
+  width: 120px;
+  margin:0;
+  padding:5px;
+  float: left;
+}
 
 h1  {
   color: white;
@@ -77,15 +84,17 @@ nav {
 .header {
   background: rgba(3, 58, 93, 0.9);
   height: 130px;
-  position: absolute;
+  position: fixed;
   width: 100%;
+
 
 }
 .footer {
-  background: rgba(26, 26, 26, 0.9);
+  background: rgba(3, 58, 93, 0.9);
   height: 100px;
   position: absolute;
   margin-top: 10px;
+
 
 }
 
