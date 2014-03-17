@@ -68,6 +68,8 @@ dl#simple-gallery dd img{
 
 h1  {
   color: white;
+  font-size: 5em;
+  margin: 10px 0 0 0 ;
 }
 
 
@@ -75,9 +77,13 @@ h1  {
 
 nav {
   float: right;
-  top: 250px;
-  position: center;
+ 
+  margin-top: -50px;
+  font-size: 2em;
 
+}
+#top {
+  color: rgba(3, 58, 93, 0.9);
 }
 
 
@@ -96,6 +102,12 @@ nav {
   margin-top: 10px;
 
 
+}
+
+.contact{
+  float: right; 
+  margin-right: 50px;
+  margin-top: 37px;
 }
 
 
