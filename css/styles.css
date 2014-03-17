@@ -67,6 +67,7 @@ dl#simple-gallery dd img{
 }
 
 h1  {
+  font-family: 'Oswald', sans-serif;
   color: white;
   font-size: 5em;
   margin: 10px 0 0 0 ;
@@ -91,7 +92,7 @@ margin-right: 100px;
 
 
 
-#top {
+#home {
   color: rgba(3, 58, 93, 0.9);
 }
 
@@ -125,9 +126,10 @@ margin-right: 100px;
 /* Links styles */
 
 nav a {
+
   text-decoration: none;
 
-  color: red;
+  color: rgb(152, 5, 15);
   list-style: ;
   
   padding: 0;
@@ -137,6 +139,7 @@ nav a {
 }
 
  a {
+  font-family: 'Archivo Narrow', sans-serif;
   text-decoration: none;
   
   float: left;
@@ -153,7 +156,11 @@ nav a {
   display: inline-block;
 }
 
-
+footer a {
+  color: rgb(152, 5, 15);
+  font-size: 2rem;
+  margin-top: 34px;
+}
 
 /* Show Grid */
 .showgrid {
