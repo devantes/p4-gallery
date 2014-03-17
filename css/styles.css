@@ -80,8 +80,17 @@ nav {
  
   margin-top: -50px;
   font-size: 2em;
-
 }
+
+li:nth-child(1),
+li:nth-child(2),
+li:nth-child(3) {
+
+margin-right: 100px;
+}
+
+
+
 #top {
   color: rgba(3, 58, 93, 0.9);
 }
